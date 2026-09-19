@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
     <title>Igor Paszek | Portfolio techniczne</title>
+
     <link rel="stylesheet" href="style.css">
+
 </head>
 
+
 <body>
+
+
+<header>
 
     <h1>Igor Paszek</h1>
 
@@ -18,16 +28,95 @@
         Automatyka • Elektronika • Mikrokontrolery • Druk 3D
     </p>
 
-    <hr>
+</header>
 
-    <h2>Moje projekty</h2>
 
-    <h3>Elektroniczna pochodnia LARP</h3>
+<div class="container">
+
+
+    <h2>O mnie</h2>
 
     <p>
-        Projekt obejmujący elektronikę, zasilanie LED,
-        projektowanie elementów 3D oraz wykonanie kompletnej konstrukcji.
+        Student Automatyki i Robotyki zainteresowany automatyką,
+        elektroniką, systemami wbudowanymi oraz projektowaniem
+        i wykonywaniem własnych urządzeń.
     </p>
 
+
+    <h2>Projekty</h2>
+
+
+    <section class="project">
+
+        <h2>Elektroniczna pochodnia LARP</h2>
+
+        <p>
+            Projekt przenośnego źródła światła stylizowanego na
+            płonącą pochodnię. Konstrukcja obejmuje układ
+            elektroniczny, zasilanie akumulatorowe, oświetlenie
+            LED oraz elementy wykonane metodą druku 3D.
+        </p>
+
+        <p class="tech">
+            Technologie:
+            elektronika, LED, Li-Ion, druk 3D, CAD, PETG
+        </p>
+
+    </section>
+
+
+    <section class="project">
+
+        <h2>System sterowania LED stroju</h2>
+
+        <p>
+            Czterokanałowy system sterowania oświetleniem LED
+            wykorzystujący mikrokontroler Arduino Nano
+            oraz tranzystory MOSFET.
+        </p>
+
+        <p>
+            Oprogramowanie realizuje animacje oświetlenia,
+            płynne przejścia PWM oraz reakcję na sygnały
+            z czujnika.
+        </p>
+
+        <p class="tech">
+            Technologie:
+            Arduino, C++, PWM, MOSFET, elektronika
+        </p>
+
+    </section>
+
+
+    <section class="project">
+
+        <h2>Raspberry Pi Pico + mikrofon cyfrowy</h2>
+
+        <p>
+            Projekt wykorzystujący Raspberry Pi Pico
+            oraz mikrofon I2S INMP441 do analizy sygnału audio
+            i sterowania urządzeniem.
+        </p>
+
+        <p class="tech">
+            Technologie:
+            RP2040, C/C++, I2S, INMP441, Edge Impulse
+        </p>
+
+    </section>
+
+
+</div>
+
+
+<footer>
+
+    Igor Paszek — Portfolio techniczne
+
+</footer>
+
+
 </body>
+
 </html>
