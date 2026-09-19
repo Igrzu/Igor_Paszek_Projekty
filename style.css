@@ -45,7 +45,8 @@ header h2 {
 
 .project img {
     width: 100%;
-    max-width: 700px;
+    display: block;
+    max-width: 500px;
     border-radius: 8px;
     margin-top: 15px;
 }
