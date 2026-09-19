@@ -44,11 +44,11 @@ header h2 {
 }
 
 .project img {
-    width: 100%;
     display: block;
-    max-width: 500px;
-    border-radius: 8px;
-    margin-top: 15px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 15px auto;
 }
 
 .tech {
