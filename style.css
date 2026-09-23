@@ -46,7 +46,7 @@ header h2 {
 .project img {
     display: block;
     width: 100%;
-    max-width: 700px;
+    max-width: 600px;
     height: auto;
     margin: 15px auto;
 }
@@ -54,7 +54,7 @@ header h2 {
 .project video {
     display: block;
     width: 100%;
-    max-width: 300px;
+    max-width: 4500px;
     height: auto;
     margin: 20px auto;
     border-radius: 8px;
