@@ -51,6 +51,15 @@ header h2 {
     margin: 15px auto;
 }
 
+.project video {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
 .tech {
     font-weight: bold;
     color: #444;
